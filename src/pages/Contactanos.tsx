@@ -1,0 +1,187 @@
+import { useState } from 'react';
+import bannerContactanos from './../assets/contactanos/banner-top-contactanos.png';
+import bannerFormulario from './../assets/contactanos/banner-formulario.jpeg';
+import mail from './../assets/contactanos/icon-mail.png';
+import phone from './../assets/contactanos/icon-phone.png';
+import place from './../assets/contactanos/icon-place.png';
+
+const Contactanos = () => {
+  // Estado para el formulario
+  const [formData, setFormData] = useState({
+    nombre: '',
+    apellidos: '',
+    celular: '',
+    email: '',
+    asunto: '',
+  });
+
+  const [errors, setErrors] = useState({
+    nombre: false,
+    apellidos: false,
+    celular: false,
+    email: false,
+    asunto: false,
+  });
+
+  // Manejo de cambios en los inputs
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  // Validación y envío del formulario
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+
+    const formErrors = {
+      nombre: !formData.nombre,
+      apellidos: !formData.apellidos,
+      celular: !formData.celular,
+      email: !formData.email || !/\S+@\S+\.\S+/.test(formData.email),
+      asunto: !formData.asunto,
+    };
+
+    setErrors(formErrors);
+
+    // Si no hay errores, se puede enviar el formulario
+    if (Object.values(formErrors).every((error) => !error)) {
+      console.log(formData);
+    }
+  };
+
+  return (
+    <div>
+      <div>
+        <img src={bannerContactanos} alt="banner-top-contactanos" className='h-32 w-full' />
+      </div>
+      <div className='flex flex-row pt-14 pb-10'>
+        <div className='w-1/2 text-[#183156] justify-center flex flex-row'>
+          <div className='flex flex-row border-x-[1px] border-r-black px-8 justify-center'>
+            <img src={phone} alt="telefono contactanos" className='h-12' />
+            <div className='flex flex-col text-[16px] items-center'>
+              <h5 className='font-extrabold'>¡Llámanos!</h5>
+              <span className='font-medium'>(+51) 995 964 600</span>
+            </div>
+          </div>
+        </div>
+        <div className='w-1/2 text-[#183156] justify-center flex flex-row'>
+          <div className='flex flex-row border-x-[1px] border-r-black pr-8 pl-6 justify-center'>
+            <img src={mail} alt="telefono contactanos" className='h-12' />
+            <div className='flex flex-col text-[16px] items-center'>
+              <h5 className='font-extrabold'>¡Escríbanos!</h5>
+              <span className='font-medium'>administracion@etranserge.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className='flex flex-row justify-center pb-14'>
+        <div className='flex flex-row border-x-[1px] border-r-black w-96 pr-8 pl-6 justify-center'>
+          <img src={place} alt="telefono contactanos" className='h-12' />
+          <div className='flex flex-col text-[16px] items-center'>
+            <h5 className='font-extrabold'>Oficina Central</h5>
+            <span className='font-medium text-center'>Jr. Los Álamos N°309 Urb. Los Ficus - Santa Anita - Lima</span>
+          </div>
+        </div>
+      </div>
+
+      <div className='bg-cover bg-center h-[600px]' style={{ backgroundImage: `url(${bannerFormulario})` }}>
+        <div className='flex flex-row justify-center items-center h-full'>
+          <form onSubmit={handleSubmit} className='w-6/10 bg-formulario p-8 rounded-lg mx-12'>
+            <div className='flex flex-row gap-4'>
+              <div className='mb-4 w-1/2'>
+                <label className='block text-white mb-2' htmlFor="nombre">Nombre</label>
+                <input
+                  type="text"
+                  id="nombre"
+                  name="nombre"
+                  value={formData.nombre}
+                  onChange={handleChange}
+                  className={`w-full p-2 border ${errors.nombre ? 'border-red-500' : 'border-gray-300'} rounded-md`}
+                  placeholder="Ingrese su nombre"
+                />
+                {errors.nombre && <p className="text-red-500 text-sm">Este campo es obligatorio</p>}
+              </div>
+
+              <div className='mb-4 w-1/2'>
+                <label className='block text-white mb-2' htmlFor="apellidos">Apellidos</label>
+                <input
+                  type="text"
+                  id="apellidos"
+                  name="apellidos"
+                  value={formData.apellidos}
+                  onChange={handleChange}
+                  className={`w-full p-2 border ${errors.apellidos ? 'border-red-500' : 'border-gray-300'} rounded-md`}
+                  placeholder="Ingrese sus apellidos"
+                />
+                {errors.apellidos && <p className="text-red-500 text-sm">Este campo es obligatorio</p>}
+              </div>
+            </div>
+
+            <div className='flex flex-row gap-4'>
+              <div className='mb-4 w-1/2'>
+                <label className='block text-white mb-2' htmlFor="celular">Celular</label>
+                <input
+                  type="text"
+                  id="celular"
+                  name="celular"
+                  value={formData.celular}
+                  onChange={handleChange}
+                  className={`w-full p-2 border ${errors.celular ? 'border-red-500' : 'border-gray-300'} rounded-md`}
+                  placeholder="Ingrese su celular"
+                />
+                {errors.celular && <p className="text-red-500 text-sm">Este campo es obligatorio</p>}
+              </div>
+
+              <div className='mb-4 w-1/2'>
+                <label className='block text-white mb-2' htmlFor="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
+                  className={`w-full p-2 border ${errors.email ? 'border-red-500' : 'border-gray-300'} rounded-md`}
+                  placeholder="Ingrese su email"
+                />
+                {errors.email && <p className="text-red-500 text-sm">Por favor ingrese un correo válido</p>}
+              </div>
+            </div>
+            
+
+            <div className='mb-4'>
+              <label className='block text-white mb-2' htmlFor="asunto">Asunto</label>
+              <textarea
+                id="asunto"
+                name="asunto"
+                value={formData.asunto}
+                onChange={handleChange}
+                className={`w-full p-2 border ${errors.asunto ? 'border-red-500' : 'border-gray-300'} rounded-md`}
+                placeholder="Escriba su mensaje"
+                rows={5}
+              />
+              {errors.asunto && <p className="text-red-500 text-sm">Este campo es obligatorio</p>}
+            </div>
+
+            <button
+              type="submit"
+              className='w-full py-2 bg-button-formulario text-white font-semibold rounded-md'
+            >
+              Enviar
+            </button>
+          </form>
+
+          <div className='w-4/10 text-white flex flex-col justify-center items-center px-6 text-center'>
+            <h2 className='text-3xl font-bold mb-4'>¡Envíanos un mensaje!</h2>
+            <p className='text-lg text-center'>
+              Estaremos atentos para brindarte mayor información.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Contactanos;

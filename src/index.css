@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import "tailwindcss";
+
+a {
+  font-weight: 500;
+  text-decoration: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Inter', sans-serif; 
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); /* Esto mueve todo el contenido fuera de la vista */
+  }
+}
+
+.animate-marquee {
+  animation: marquee 40s linear infinite; /* Tiempo más lento para el movimiento */
+}
+.overflow-hidden {
+
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.bg-secondary{
+  background-color: #183156;
+}
+
+.bg-footer{
+  background-color: #F4811F;
+}
+
+.bg-button{
+  background-color: #FF7D0E;
+  border: 1px solid #FF7D0E;
+  outline-color: #FF7D0E;
+}
+
+.bg-button:hover{
+  background-color: #bd661b;
+  border: 1px solid #bd661b;
+  outline-color: #bd661b;
+}
+
+.bg-button:focus{
+  background-color: #FF7D0E;
+  border: 1px solid #FF7D0E;
+  outline-color: #FF7D0E;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.bg-icon{
+  background-color: rgba(243, 243, 243, 0.2);
+}
+
+.bg-button-formulario{
+  background-color: #183156;
+  border: 1px solid #183156;
+  outline-color: #183156;
+}
+
+.bg-button-formulario:hover{
+  background-color: #13253f;
+  border: 1px solid #13253f;
+  outline-color: #13253f;
+}
+
+.bg-button-formulario:focus{
+  background-color: #183156;
+  border: 1px solid #183156;
+  outline-color: #183156;
+}
+
+.bg-formulario{
+  background-color: rgba(244,129,31,0.75);
+}
+
+.comentario{
+  font-family: 'Kalam', sans-serif; 
+  color: #6BAEC3;
+  font-size: 15px;
+}
+
+.menu-option{
+  color: #FF7D0E
+}
+
+.menu-option:hover{
+  color: #183156
+}
+
+.menu-option-seleccionada,
+.menu-option-seleccionada:hover{
+  color: #183156
+}

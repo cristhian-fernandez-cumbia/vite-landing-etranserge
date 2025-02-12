@@ -1,0 +1,6 @@
+export { default as Inicio } from './Inicio'
+export { default as Nosotros } from './Nosotros'
+export { default as Programas } from './Programas'
+export { default as Proyectos } from './Proyectos'
+export { default as Equipos } from './Equipos'
+export { default as Contactanos } from './Contactanos'
