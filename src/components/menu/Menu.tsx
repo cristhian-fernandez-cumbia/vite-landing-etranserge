@@ -22,8 +22,8 @@ export const Menu = ({ mobile = false }: MenuProps) => {
           className={({ isActive }) =>
             `${linkClass} ${
               isActive
-                ? 'bg-gray-100 menu-option-seleccionada'
-                : 'menu-option hover:bg-gray-100'
+                ? 'bg-gray-100 menu-option-seleccionada text-md xl:text-lg'
+                : 'menu-option hover:bg-gray-100 text-md xl:text-lg'
             }`
           }
         >

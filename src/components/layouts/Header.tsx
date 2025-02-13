@@ -8,10 +8,12 @@ const Header = () => {
 
   return (
     <header className="bg-white shadow-lg">
-      <nav className="px-12 py-2 ">
+      <nav className="px-4 lg:px-12 py-3 lg:py-4">
         <div className="flex items-center justify-between">
-          <Logo />
-          <div className="hidden lg:flex">
+          <div className='w-[80%] lg:w-[40%] '>
+            <Logo />
+          </div>
+          <div className="hidden lg:flex w-[20%] lg:w-[60%] lg:justify-end xl:justify-center">
             <Menu />
           </div>
           <button
