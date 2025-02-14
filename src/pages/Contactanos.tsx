@@ -6,7 +6,7 @@ import phone from './../assets/contactanos/icon-phone.png';
 import place from './../assets/contactanos/icon-place.png';
 
 const Contactanos = () => {
-  // Estado para el formulario
+
   const [formData, setFormData] = useState({
     nombre: '',
     apellidos: '',
@@ -23,7 +23,6 @@ const Contactanos = () => {
     asunto: false,
   });
 
-  // Manejo de cambios en los inputs
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
       ...formData,
@@ -31,7 +30,6 @@ const Contactanos = () => {
     });
   };
 
-  // Validación y envío del formulario
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
@@ -45,7 +43,6 @@ const Contactanos = () => {
 
     setErrors(formErrors);
 
-    // Si no hay errores, se puede enviar el formulario
     if (Object.values(formErrors).every((error) => !error)) {
       console.log(formData);
     }

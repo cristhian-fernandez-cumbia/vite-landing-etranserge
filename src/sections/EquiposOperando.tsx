@@ -1,6 +1,6 @@
-import equipo01 from './../assets/equipos-cargio/equipo01.jpeg';
-import equipo02 from './../assets/equipos-cargio/equipo02.jpeg';
-import equipo03 from './../assets/equipos-cargio/equipo03.jpeg';
+import cama_baja from './../assets/equipos/cama_baja.png';
+import bombonas from './../assets/equipos/bombonas.png';
+import encapsulado from './../assets/equipos/encapsulado.png';
 
 const EquiposOperando = () => {
   return (
@@ -8,15 +8,15 @@ const EquiposOperando = () => {
       <div className="lg:w-1/2 flex flex-col bg-secondary">
         <div className="flex flex-row ">
           <div className='w-1/2 border-r-[1px] border-r-white flex justify-center items-center py-6 lg:py-10 2xl:py-16'>
-            <img src={equipo01} alt="Equipo 1" className="w-32 h-32 md:w-36 md:h-36 lg:w-40 lg:h-40 xl:w-48 xl:h-48 2xl:w-56 2xl:h-56 object-cover border-2 border-white rounded-full" />
+            <img src={cama_baja} alt="Equipo 1" className="w-32 h-32 md:w-36 md:h-36 lg:w-40 lg:h-40 xl:w-48 xl:h-48 2xl:w-56 2xl:h-56 object-cover border-2 border-white rounded-full" />
           </div>
           <div className='w-1/2 flex justify-center items-center py-6 lg:py-10 2xl:py-16'>
-            <img src={equipo02} alt="Equipo 2" className="w-32 h-32 md:w-36 md:h-36 lg:w-40 lg:h-40 xl:w-48 xl:h-48 2xl:w-56 2xl:h-56 object-cover border-2 border-white rounded-full" /> 
+            <img src={bombonas} alt="Equipo 2" className="w-32 h-32 md:w-36 md:h-36 lg:w-40 lg:h-40 xl:w-48 xl:h-48 2xl:w-56 2xl:h-56 object-cover border-2 border-white rounded-full" /> 
           </div>
         </div>
 
         <div className="flex justify-center border-t-[1px] border-t-white items-center py-6 lg:py-10 2xl:py-16">
-          <img src={equipo03} alt="Equipo 3" className="w-32 h-32 md:w-36 md:h-36 lg:w-40 lg:h-40 xl:w-48 xl:h-48 2xl:w-56 2xl:h-56 object-cover border-2 border-white rounded-full" />
+          <img src={encapsulado} alt="Equipo 3" className="w-32 h-32 md:w-36 md:h-36 lg:w-40 lg:h-40 xl:w-48 xl:h-48 2xl:w-56 2xl:h-56 object-cover border-2 border-white rounded-full" />
         </div>
       </div>
 

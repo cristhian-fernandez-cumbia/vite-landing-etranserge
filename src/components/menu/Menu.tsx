@@ -15,7 +15,7 @@ export const Menu = ({ mobile = false }: MenuProps) => {
 
   return (
     <div className={`${mobile ? 'space-y-1' : 'space-x-4'}`}>
-      {['Inicio', 'Nosotros', 'Programas', 'Proyectos', 'Contáctanos'].map((item) => (
+      {['Inicio', 'Nosotros', 'Programas', 'Proyectos', 'Equipos', 'Contáctanos'].map((item) => (
         <NavLink
           key={item}
           to={item === 'Inicio' ? '/' : `/${removeAccents(item.toLowerCase())}`}
