@@ -1,6 +1,7 @@
 import { Email, Internet, Phone, Place, Twiter, Youtube } from '../../assets/icons';
 import Instagram from '../../assets/icons/Instagram';
 import logo from './../../assets/logo/logo_isotipo.png';
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -30,10 +31,18 @@ const Footer = () => {
         <div className="w-full lg:w-1/3 flex flex-col">
           <h2 className='text-3xl font-bold mb-6'>Empresa</h2>
           <ul>
-            <li className='text-[18px] mb-2'>Nosotros</li>
-            <li className='text-[18px] mb-2'>Programas</li>
-            <li className='text-[18px] mb-2'>Proyectos</li>
-            <li className='text-[18px] mb-2'>Equipos</li>
+            <li className='text-[18px] mb-2'>
+              <NavLink to="/nosotros" className="text-white hover:text-primary">Nosotros</NavLink>
+            </li>
+            <li className='text-[18px] mb-2'>
+              <NavLink to="/programas" className="text-white hover:text-primary">Programas</NavLink>
+            </li>
+            <li className='text-[18px] mb-2'>
+              <NavLink to="/proyectos" className="text-white hover:text-primary">Proyectos</NavLink>
+            </li>
+            <li className='text-[18px] mb-2'>
+              <NavLink to="/equipos" className="text-white hover:text-primary">Equipos</NavLink>
+            </li>
           </ul>
         </div>
         <div className="lg:w-2/3 flex flex-col items-center lg:items-start">
