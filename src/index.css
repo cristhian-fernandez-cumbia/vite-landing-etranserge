@@ -1,7 +1,7 @@
-@import 'animate.css/animate.compat.css';
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 @import "tailwindcss";
+@import 'animate.css/animate.compat.css';
 
 a {
   font-weight: 500;
@@ -132,7 +132,6 @@ button:focus-visible {
 .comentario{
   font-family: 'Kalam', sans-serif; 
   color: #6BAEC3;
-  font-size: 15px;
 }
 
 .menu-option{

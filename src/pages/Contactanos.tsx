@@ -83,9 +83,9 @@ const Contactanos = () => {
         </div>
       </div>
 
-      <div className='bg-cover bg-center h-[600px]' style={{ backgroundImage: `url(${bannerFormulario})` }}>
-        <div className='flex flex-row justify-center items-center h-full'>
-          <form onSubmit={handleSubmit} className='w-6/10 bg-formulario p-8 rounded-lg mx-12'>
+      <div className='bg-cover bg-center h-auto md:h-[600px] py-8 px-10 md:px-0 md:py-0' style={{ backgroundImage: `url(${bannerFormulario})` }}>
+        <div className='flex flex-col-reverse md:flex-row justify-center items-center h-full'>
+          <form onSubmit={handleSubmit} className='w-full md:w-6/10 bg-formulario p-8 rounded-lg mx-12'>
             <div className='flex flex-row gap-4'>
               <div className='mb-4 w-1/2'>
                 <label className='block text-white mb-2' htmlFor="nombre">Nombre</label>
@@ -95,10 +95,10 @@ const Contactanos = () => {
                   name="nombre"
                   value={formData.nombre}
                   onChange={handleChange}
-                  className={`w-full p-2 border ${errors.nombre ? 'border-red-500' : 'border-gray-300'} rounded-md`}
+                  className={`w-full p-2 border ${errors.nombre ? 'border-[#183156]' : 'border-gray-300'} rounded-md`}
                   placeholder="Ingrese su nombre"
                 />
-                {errors.nombre && <p className="text-red-500 text-sm">Este campo es obligatorio</p>}
+                {errors.nombre && <p className="text-[#183156] text-sm">Este campo es obligatorio</p>}
               </div>
 
               <div className='mb-4 w-1/2'>
@@ -109,10 +109,10 @@ const Contactanos = () => {
                   name="apellidos"
                   value={formData.apellidos}
                   onChange={handleChange}
-                  className={`w-full p-2 border ${errors.apellidos ? 'border-red-500' : 'border-gray-300'} rounded-md`}
+                  className={`w-full p-2 border ${errors.apellidos ? 'border-[#183156]' : 'border-gray-300'} rounded-md`}
                   placeholder="Ingrese sus apellidos"
                 />
-                {errors.apellidos && <p className="text-red-500 text-sm">Este campo es obligatorio</p>}
+                {errors.apellidos && <p className="text-[#183156] text-sm">Este campo es obligatorio</p>}
               </div>
             </div>
 
@@ -125,10 +125,10 @@ const Contactanos = () => {
                   name="celular"
                   value={formData.celular}
                   onChange={handleChange}
-                  className={`w-full p-2 border ${errors.celular ? 'border-red-500' : 'border-gray-300'} rounded-md`}
+                  className={`w-full p-2 border ${errors.celular ? 'border-[#183156]' : 'border-gray-300'} rounded-md`}
                   placeholder="Ingrese su celular"
                 />
-                {errors.celular && <p className="text-red-500 text-sm">Este campo es obligatorio</p>}
+                {errors.celular && <p className="text-[#183156] text-sm">Este campo es obligatorio</p>}
               </div>
 
               <div className='mb-4 w-1/2'>
@@ -139,10 +139,10 @@ const Contactanos = () => {
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  className={`w-full p-2 border ${errors.email ? 'border-red-500' : 'border-gray-300'} rounded-md`}
+                  className={`w-full p-2 border ${errors.email ? 'border-[#183156]' : 'border-gray-300'} rounded-md`}
                   placeholder="Ingrese su email"
                 />
-                {errors.email && <p className="text-red-500 text-sm">Por favor ingrese un correo válido</p>}
+                {errors.email && <p className="text-[#183156] text-sm">Por favor ingrese un correo válido</p>}
               </div>
             </div>
             
@@ -154,11 +154,11 @@ const Contactanos = () => {
                 name="asunto"
                 value={formData.asunto}
                 onChange={handleChange}
-                className={`w-full p-2 border ${errors.asunto ? 'border-red-500' : 'border-gray-300'} rounded-md`}
+                className={`w-full p-2 border ${errors.asunto ? 'border-[#183156]' : 'border-gray-300'} rounded-md`}
                 placeholder="Escriba su mensaje"
                 rows={5}
               />
-              {errors.asunto && <p className="text-red-500 text-sm">Este campo es obligatorio</p>}
+              {errors.asunto && <p className="text-[#183156] text-sm">Este campo es obligatorio</p>}
             </div>
 
             <button
@@ -169,7 +169,7 @@ const Contactanos = () => {
             </button>
           </form>
 
-          <div className='w-4/10 text-white flex flex-col justify-center items-center px-6 text-center'>
+          <div className='w-full md:w-4/10 text-white flex flex-col justify-center items-center px-6 text-center mb-5 md:mb-0'>
             <h2 className='text-3xl font-bold mb-4'>¡Envíanos un mensaje!</h2>
             <p className='text-lg text-center'>
               Estaremos atentos para brindarte mayor información.
