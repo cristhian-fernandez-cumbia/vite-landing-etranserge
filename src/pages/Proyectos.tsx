@@ -25,15 +25,15 @@ const Proyectos = () => {
 
       {/* Línea de tiempo */}
       <div className="relative pl-8">
-        <div className="absolute left-1/2 border-l-2 border-gray-300 h-full"></div>
+        <div className="absolute left-1/6 md:left-1/2 border-l-2 border-gray-300 h-full"></div>
 
         {items.map((item, index) => (
           <div key={index} className={`flex items-center mb-12 ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}>
             {/* Círculo de la línea de tiempo */}
-            <div className="w-8 h-8 bg-blue-500 rounded-full border-4 border-white absolute left-1/2 transform -translate-x-1/2 z-10"></div>
+            <div className="w-8 h-8 bg-blue-500 rounded-full border-4 border-white absolute left-1/6 md:left-1/2 transform -translate-x-1/2 z-10"></div>
 
             {/* Contenido del item */}
-            <div className={`flex-1 ${index % 2 === 0 ? 'pl-16' : 'pr-16'} ${index % 2 === 0 ? 'text-left' : 'text-right'}`}>
+            <div className={`flex-1 ${index % 2 === 0 ? 'pl-24 md:pl-16' : 'pl-24 md:pr-16'} ${index % 2 === 0 ? 'text-left' : 'text left md:text-right'}`}>
               <h3 className="text-xl font-semibold text-primary">{item.titulo}</h3>
               {item.subtitulo && <p className="text-sm text-gray-600">{item.subtitulo}</p>}
               <p className="text-sm text-gray-500">{item.meses} {item.ano}</p>
