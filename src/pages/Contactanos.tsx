@@ -53,9 +53,9 @@ const Contactanos = () => {
       <div>
         <img src={bannerContactanos} alt="banner-top-contactanos" className='h-32 w-full' />
       </div>
-      <div className='flex flex-row pt-14 pb-10'>
-        <div className='w-1/2 text-[#183156] justify-center flex flex-row'>
-          <div className='flex flex-row border-x-[1px] border-r-black px-8 justify-center'>
+      <div className='flex flex-col md:flex-row pt-14 pb-10'>
+        <div className='w-full md:w-1/2 text-[#183156] justify-center flex flex-row mb-12 md:mb-0'>
+          <div className='flex flex-row border-0 md:border-x-[1px] md:border-r-black px-8 justify-center'>
             <img src={phone} alt="telefono contactanos" className='h-12' />
             <div className='flex flex-col text-[16px] items-center'>
               <h5 className='font-extrabold'>¡Llámanos!</h5>
@@ -63,8 +63,8 @@ const Contactanos = () => {
             </div>
           </div>
         </div>
-        <div className='w-1/2 text-[#183156] justify-center flex flex-row'>
-          <div className='flex flex-row border-x-[1px] border-r-black pr-8 pl-6 justify-center'>
+        <div className='w-full md:w-1/2 text-[#183156] justify-center flex flex-row'>
+          <div className='flex flex-row border-0 md:border-x-[1px] md:border-r-black pr-8 pl-6 justify-center'>
             <img src={mail} alt="telefono contactanos" className='h-12' />
             <div className='flex flex-col text-[16px] items-center'>
               <h5 className='font-extrabold'>¡Escríbanos!</h5>
@@ -74,7 +74,7 @@ const Contactanos = () => {
         </div>
       </div>
       <div className='flex flex-row justify-center pb-14'>
-        <div className='flex flex-row border-x-[1px] border-r-black w-96 pr-8 pl-6 justify-center'>
+        <div className='flex flex-row border-0 md:border-x-[1px] md:border-r-black w-96 pr-8 pl-6 justify-center'>
           <img src={place} alt="telefono contactanos" className='h-12' />
           <div className='flex flex-col text-[16px] items-center'>
             <h5 className='font-extrabold'>Oficina Central</h5>
