@@ -24,7 +24,7 @@ const Equipos = () => {
   ];
 
   return (
-    <div className="py-12 px-10">
+    <div className="py-12">
       <div className="flex flex-row justify-center items-center mb-8">
         <div className="w-2 h-6 lg:h-7 xl:h-8 2xl:h-10 bg-secondary mr-2"></div>
         <h1 className="text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold text-primario">EQUIPOS DE CARGIO</h1>
@@ -32,7 +32,7 @@ const Equipos = () => {
 
       <div className="space-y-6">
         {items_cargio.map((item, index) => (
-          <div className={`flex ${index % 2 === 0 ? 'flex-row':'flex-row-reverse'}`} >
+          <div className={`flex ${index % 2 === 0 ? 'flex-row animate-slide-left':'flex-row-reverse animate-slide-right'} mb-0`} >
             <div className={`flex ${index % 2 === 0 ? 'flex-row':'flex-row-reverse '} md:w-[60%]`}>
               <div
                 key={index}

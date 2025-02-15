@@ -1,3 +1,6 @@
+import ScrollAnimation from 'react-animate-on-scroll';
+import 'animate.css/animate.compat.css';
+
 const Proyectos = () => {
   const items = [
     { titulo: "CIA. MINERA ISCAYCRUZ", subtitulo: "", meses: "Feb - Nov", ano: "2002", description: "Transporte de concentrado de mineral encapsulado" },
@@ -30,14 +33,30 @@ const Proyectos = () => {
         {items.map((item, index) => (
           <div key={index} className={`flex items-center mb-12 ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}>
             {/* Círculo de la línea de tiempo */}
-            <div className="w-8 h-8 bg-blue-500 rounded-full border-4 border-white absolute left-1/6 md:left-1/2 transform -translate-x-1/2 z-10"></div>
+            <div className="w-8 h-8 bg-[#183156] rounded-full border-4 border-white absolute left-1/6 md:left-1/2 transform -translate-x-1/2 z-10"></div>
 
             {/* Contenido del item */}
-            <div className={`flex-1 ${index % 2 === 0 ? 'pl-24 md:pl-16' : 'pl-24 md:pr-16'} ${index % 2 === 0 ? 'text-left' : 'text left md:text-right'}`}>
-              <h3 className="text-xl font-semibold text-primary">{item.titulo}</h3>
-              {item.subtitulo && <p className="text-sm text-gray-600">{item.subtitulo}</p>}
-              <p className="text-sm text-gray-500">{item.meses} {item.ano}</p>
-              <p className="mt-2 text-sm text-gray-700">{item.description}</p>
+            <div className={`flex-1 ${index % 2 === 0 ? 'pl-24 md:pl-16' : 'pl-24 md:pr-16'} ${index % 2 === 0 ? 'text-left' : 'text-left md:text-right'}`}>
+              {/* Contenedor del borde */}
+              <ScrollAnimation
+                animateIn={index % 2 === 0 ? 'fadeInLeft' : 'fadeInRight'}
+                animateOnce={true}
+                offset={100} // Se aplica cuando se ha desplazado una cierta distancia
+              >
+                <div className="lg:border-2 lg:border-[#183156] inline-flex flex-col lg:w-96 lg:px-6 lg:py-4 lg:rounded-lg lg:relative">
+                  {/* Flecha */}
+                  
+                    <div 
+                      className={`lg:absolute lg:top-1/2 lg:-translate-y-1/2 lg:border-t-[20px] lg:border-t-transparent lg:border-r-[20px] lg:border-r-[#183156] lg:border-b-[20px] lg:border-b-transparent lg:w-0 lg:h-0 lg:transform 
+                      ${index % 2 === 0 ? 'lg:right-[-20px] lg:rotate-180' : 'lg:left-[-20px] lg:rotate-0'}`}
+                    ></div>
+
+                  <h3 className="text-xl font-semibold text-primary">{item.titulo}</h3>
+                  {item.subtitulo && <p className="text-sm text-gray-600">{item.subtitulo}</p>}
+                  <p className="text-sm text-gray-500">{item.meses} {item.ano}</p>
+                  <p className="mt-2 text-sm text-gray-700">{item.description}</p>
+                </div>
+              </ScrollAnimation>
             </div>
           </div>
         ))}
