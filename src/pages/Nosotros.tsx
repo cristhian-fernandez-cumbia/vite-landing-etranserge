@@ -207,7 +207,7 @@ const Nosotros = () => {
           <h3 className='comentario text-[14px] md:text-[17px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px]'>
             "En ETRANSERGE S.R.L., nuestro mayor activo son las personas que conforman nuestro equipo, cuyo esfuerzo, dedicación y profesionalismo hacen posible el éxito de cada proyecto."
           </h3>
-          <span className='comentario'>-Carlos Aguero</span>
+          <span className='comentario'>-Carlos Agüero</span>
         </div>
       </div>
     </div>
