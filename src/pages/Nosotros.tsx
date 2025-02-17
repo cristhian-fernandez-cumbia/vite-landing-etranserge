@@ -157,7 +157,7 @@ const Nosotros = () => {
           style={{ width: "100%" }}
         >
           <div className='flex flex-col-reverse md:flex-row'>
-            <div className='w-full md:w-5/8 lg:border-4'>
+            <div className='w-full md:w-5/8'>
               <img src={equipo} alt="bannerNosotros" className="h-64 w-full lg:h-full" />
             </div>
             <div className='w-full md:w-3/8 flex flex-col items-center justify-center bg-secondary text-white py-6 md:py-0'>
