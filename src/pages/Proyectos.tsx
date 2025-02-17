@@ -28,7 +28,7 @@ const Proyectos = () => {
 
       {/* Línea de tiempo */}
       <div className="relative px-8 py-12 bg-[#183156] overflow-y-hidden lg:mx-12 xl:mx-28 2xl:mx-36 2xl:px-16">
-        <div className="absolute left-1/6 md:left-1/2 border-l-2 border-gray-300 h-full"></div>
+        <div className="absolute left-1/6 md:left-1/2 border-l-2 border-white h-full"></div>
 
         {items.map((item, index) => (
           <div key={index} className={`flex items-center mb-12 ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}>
@@ -43,18 +43,18 @@ const Proyectos = () => {
                 animateOnce={true}
                 offset={100} // Se aplica cuando se ha desplazado una cierta distancia
               >
-                <div className="lg:border-2 lg:border-white inline-flex flex-col lg:w-96 lg:px-6 lg:py-4 lg:rounded-lg lg:relative">
+                <div className="lg:border-2 lg:border-[#FF7D0E] bg-footer inline-flex flex-col lg:w-96 lg:px-6 lg:py-4 lg:rounded-lg lg:relative">
                   {/* Flecha */}
                   
                     <div 
-                      className={`lg:absolute lg:top-1/2 lg:-translate-y-1/2 lg:border-t-[20px] lg:border-t-transparent lg:border-r-[20px] lg:border-r-white lg:border-b-[20px] lg:border-b-transparent lg:w-0 lg:h-0 lg:transform 
+                      className={`lg:absolute lg:top-1/2 lg:-translate-y-1/2 lg:border-t-[20px] lg:border-t-transparent lg:border-r-[20px] lg:border-r-[#FF7D0E] lg:border-b-[20px] lg:border-b-transparent lg:w-0 lg:h-0 lg:transform 
                       ${index % 2 === 0 ? 'lg:right-[-20px] lg:rotate-180' : 'lg:left-[-20px] lg:rotate-0'}`}
                     ></div>
 
-                  <h3 className="text-xl font-semibold text-secundario">{item.titulo}</h3>
+                  <h3 className="text-xl font-semibold text-white">{item.titulo}</h3>
                   {item.subtitulo && <p className="text-sm text-gray-600">{item.subtitulo}</p>}
                   <p className="text-sm text-white">{item.meses} {item.ano}</p>
-                  <p className="mt-2 text-sm text-[#6BAEC3]">{item.description}</p>
+                  <p className="mt-2 text-sm text-white">{item.description}</p>
                 </div>
               </ScrollAnimation>
             </div>
