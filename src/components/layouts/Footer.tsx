@@ -10,7 +10,7 @@ const Footer = () => {
         <img src={logo} alt="Logo Etranserge" className="h-16 mr-5"/>
         <div className=' flex flex-col'>
           <span className='text-xl font-bold text-white'>ETRANSERGE S.R.L</span>
-          <span className='text-[16px] text-white mb-5'>Empresa de Transportes y Servicios Genuinos S.C.R.L</span>
+          <span className='text-[16px] text-white mb-5'>Empresa de Transportes y Servicios Genuinos S.R.L</span>
           <div className='flex flex-row'>
             <div className='p-2 bg-icon rounded-full mr-3'>
               <Instagram className='w-5 h-5'/>

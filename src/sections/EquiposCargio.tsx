@@ -68,7 +68,7 @@ const EquiposCargio = () => {
       >
         <div className="lg:w-full lg:h-full flex flex-row mb-4 lg:mb-0 animate-slide-left">
           <div className="w-1/2 bg-secondary flex flex-col justify-center items-center text-center px-2 md:px-8 lg:px-14">
-            <div className="text-white text-lg lg:text-2xl xl:text-3xl 2xl:text-4xl mb-2 lg:mb-3 xl:mb-4 2xl:mb-5">EQUIPOS DE CARGIO</div>
+            <div className="text-white text-lg lg:text-2xl xl:text-3xl 2xl:text-4xl mb-2 lg:mb-3 xl:mb-4 2xl:mb-5">EQUIPOS DE CARGUIO</div>
             <div className="text-white text-[15px] lg:text-lg 2xl:text-xl">Máquinas de última tecnología para una carga eficiente y segura.</div>
           </div>
           <div className="w-1/2 flex flex-col items-center justify-between py-6">

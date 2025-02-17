@@ -34,7 +34,7 @@ const Equipos = () => {
     <div className="py-12">
       <div className="flex flex-row justify-center items-center mb-8">
         <div className="w-2 h-6 lg:h-7 xl:h-8 2xl:h-10 bg-secondary mr-2"></div>
-        <h1 className="text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold text-primario">EQUIPOS DE CARGIO</h1>
+        <h1 className="text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold text-primario">EQUIPOS DE CARGUIO</h1>
       </div>
 
       <div className="space-y-6">
