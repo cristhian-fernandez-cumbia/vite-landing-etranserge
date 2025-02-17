@@ -107,10 +107,10 @@ const Nosotros = () => {
           ETRANSERGE S.R.L, constituida el 17 de enero de 2002, tiene como finalidad ofrecer la prestación de
           servicios inherentes y/o conexos tanto a la Construcción y Minería, brindando servicios específicos, con el
           propósito de reducir los costos e incrementar la productividad de sus clientes en la ejecución de trabajos
-          de transporte de mineral y otros. ESTRANSERGE S.R.L cuenta con un equipo especializado de gran experiencia en
+          de transporte de mineral y otros. ETRANSERGE S.R.L cuenta con un equipo especializado de gran experiencia en
           la prestación de Servicios de Carguío y Movimiento de tierras; además del servicio de transporte, los cuales
-          nos permite ofrecer un servicio de calidad. ESTRANSERGE S.R.L opera de acuerdo a la política establecida por
-          el Directorio, bajo la dirección de su Gerente General. ESTRANSERGE S.R.L opera de acuerdo a la política
+          nos permite ofrecer un servicio de calidad. ETRANSERGE S.R.L opera de acuerdo a la política establecida por
+          el Directorio, bajo la dirección de su Gerente General. ETRANSERGE S.R.L opera de acuerdo a la política
           establecida por el Directorio, bajo la dirección de su Gerente General.
         </p>
       </div>
@@ -162,7 +162,7 @@ const Nosotros = () => {
             </div>
             <div className='w-full md:w-3/8 flex flex-col items-center justify-center bg-secondary text-white py-6 md:py-0'>
               <span className='text-2xl font-extrabold mb-2 md:mb-6 xl:text-3xl 2xl:text-4xl'>EQUIPO</span>
-              <span className='w-60 text-center text-[14px] xl:text-[16px] 2xl:text-[18px]'>En ESTRANSERGE S.R.L. Apostamos por el talento como diferenciación. </span>
+              <span className='w-60 text-center text-[14px] xl:text-[16px] 2xl:text-[18px]'>En ETRANSERGE S.R.L. Apostamos por el talento como diferenciación. </span>
             </div>
           </div>
         </ScrollAnimation>

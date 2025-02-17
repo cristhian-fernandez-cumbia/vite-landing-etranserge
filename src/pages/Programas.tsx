@@ -120,7 +120,7 @@ const Programas = () => {
       <div className='flex flex-col py-12 px-10 lg:flex-row'>
         <div className='flex flex-col justify-center items-center mb-5 lg:w-1/2 lg:items-start'>
           <h1 className='text-3xl xl:text-4xl 2xl:text-5xl w-[300px] xl:w-[350px] 2xl:w-[450px] text-center font-extrabold text-secundario mb-2 lg:text-left'><span className='text-primario'>Programa de</span> Seguridad y Salud Ocupacional</h1>
-          <p className='text-primario text-[15px] lg:text-[16px]  xl:text-[18px] 2xl:text-[20px] font-medium text-center lg:text-left'>En ESTRANSERGE S.R.L, estamos comprometidos en respetar y dar cumplimiento a su Política Empresarial, la misma que abarca los aspectos en materia de Calidad.</p>
+          <p className='text-primario text-[15px] lg:text-[16px]  xl:text-[18px] 2xl:text-[20px] font-medium text-center lg:text-left'>En ETRANSERGE S.R.L, estamos comprometidos en respetar y dar cumplimiento a su Política Empresarial, la misma que abarca los aspectos en materia de Calidad.</p>
         </div>
         <div className='flex justify-center items-center lg:w-1/2'>
           <img src={seguridad} alt="Seguridad y Salud Ocupacional" className="w-full object-cover object-center max-w-lg" />
