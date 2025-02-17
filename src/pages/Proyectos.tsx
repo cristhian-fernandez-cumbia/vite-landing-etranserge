@@ -27,7 +27,7 @@ const Proyectos = () => {
       </div>
 
       {/* Línea de tiempo */}
-      <div className="relative pl-8 py-12 bg-[#183156] overflow-y-hidden">
+      <div className="relative px-8 py-12 bg-[#183156] overflow-y-hidden lg:mx-12 xl:mx-28 2xl:mx-36 2xl:px-16">
         <div className="absolute left-1/6 md:left-1/2 border-l-2 border-gray-300 h-full"></div>
 
         {items.map((item, index) => (
@@ -36,7 +36,7 @@ const Proyectos = () => {
             <div className="w-8 h-8 bg-white rounded-full border-4 border-white absolute left-1/6 md:left-1/2 transform -translate-x-1/2 z-10"></div>
 
             {/* Contenido del item */}
-            <div className={`flex-1 ${index % 2 === 0 ? 'pl-24 md:pl-16' : 'pl-24 md:pr-16'} ${index % 2 === 0 ? 'text-left' : 'text-left md:text-right'}`}>
+            <div className={`flex-1 ${index % 2 === 0 ? 'pl-24 md:pl-16 lg:pl-0 xl:pl-16 2xl:pl-32' : 'pl-24 md:pr-16 lg:pr-0 xl:pr-16 2xl:pr-32'} ${index % 2 === 0 ? 'text-left' : 'text-left md:text-right'}`}>
               {/* Contenedor del borde */}
               <ScrollAnimation
                 animateIn={index % 2 === 0 ? 'fadeInLeft' : 'fadeInRight'}
