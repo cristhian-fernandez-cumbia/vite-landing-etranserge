@@ -9,6 +9,7 @@ import rodillo from './../assets/equipos/rodillo.png'
 import tractor from './../assets/equipos/tractor.png'
 import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css/animate.compat.css';
+import { useEffect } from 'react'
 
 const Equipos = () => {
   const items_cargio = [
@@ -24,6 +25,10 @@ const Equipos = () => {
     { image: bombonas, title:"Bombonas", description: "El camion bombona se utiliza para transportar a largas distancias el hormigón elaborado en una central de hormigonado, sin que durante el trayecto el material se deteriore o merme su calidad" },
     { image: encapsulado, title:"Encapsulado", description: " Los camiones encapsulados para minerales están diseñados específicamente para evitar cualquier tipo de contaminación o derrame durante el transporte." },
   ];
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="py-12">

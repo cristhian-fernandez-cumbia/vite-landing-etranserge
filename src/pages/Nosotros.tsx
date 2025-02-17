@@ -135,16 +135,16 @@ const Nosotros = () => {
 
       <div className='relative flex justify-center flex-col items-center'>
         <img src={bannerVision} alt="bannerVision" className=" w-full" />
-        <div className='relative md:absolute md:-bottom-20 flex flex-col w-96 md:right-10 items-center'>
+        <div className='relative md:absolute md:-bottom-28 lg:-bottom-24 xl:-bottom-32 flex flex-col w-96 md:right-10 2xl:right-36 items-center 2xl:-bottom-28'>
           <span className='text-2xl lg:text-4xl font-extrabold mb-5'>VISIÓN</span>
-          <span className='text-center text-[14px] md:text-[15px] lg:text-[16px] xl:text-[17px] 2xl:text-[18px]'>Alcanzar un desempeño superior y sustentable en el mediano y largo plazo, a través del valor aportado al cliente en los servicios que entrega, con el equipo de calidad y experiencia en el entorno de la construcción.</span>
+          <span className='text-center text-[14px] md:text-[15px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px]'>Alcanzar un desempeño superior y sustentable en el mediano y largo plazo, a través del valor aportado al cliente en los servicios que entrega, con el equipo de calidad y experiencia en el entorno de la construcción.</span>
         </div>
       </div>
-      <div className='h-6 md:h-32 w-full'></div>
+      <div className='h-6 md:h-32 xl:h-48 2xl:h-52 w-full'></div>
       <div className='relative flex justify-center flex-col items-center'>
-        <div className='relative md:absolute md:-top-24 flex flex-col w-96 md:left-10 items-center'>
+        <div className='relative md:absolute md:-top-24 flex flex-col w-96 md:left-10 items-center 2xl:left-36'>
           <span className='text-2xl lg:text-4xl font-extrabold mb-5'>MISIÓN</span>
-          <span className='text-center text-[14px] md:text-[15px] lg:text-[16px] xl:text-[17px] 2xl:text-[18px]'>Contribuir al desarrollo económico y social del país, desarrollando su actividad con calidad, seguridad y cuidado del medio ambiente, buscando la satisfacción del cliente y de sus proveedores.</span>
+          <span className='text-center text-[14px] md:text-[15px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px]'>Contribuir al desarrollo económico y social del país, desarrollando su actividad con calidad, seguridad y cuidado del medio ambiente, buscando la satisfacción del cliente y de sus proveedores.</span>
         </div>
         <img src={bannerMision} alt="bannerMision" className=" w-full" />
       </div>
@@ -157,12 +157,12 @@ const Nosotros = () => {
           style={{ width: "100%" }}
         >
           <div className='flex flex-col-reverse md:flex-row'>
-            <div className='w-full md:w-5/8'>
-              <img src={equipo} alt="bannerNosotros" className="h-64 w-full" />
+            <div className='w-full md:w-5/8 lg:border-4'>
+              <img src={equipo} alt="bannerNosotros" className="h-64 w-full lg:h-full" />
             </div>
             <div className='w-full md:w-3/8 flex flex-col items-center justify-center bg-secondary text-white py-6 md:py-0'>
-              <span className='text-2xl font-extrabold mb-2 md:mb-6'>EQUIPO</span>
-              <span className='w-60 text-center text-[14px]'>En ESTRANSERGE S.R.L. Apostamos por el talento como diferenciación. </span>
+              <span className='text-2xl font-extrabold mb-2 md:mb-6 xl:text-3xl 2xl:text-4xl'>EQUIPO</span>
+              <span className='w-60 text-center text-[14px] xl:text-[16px] 2xl:text-[18px]'>En ESTRANSERGE S.R.L. Apostamos por el talento como diferenciación. </span>
             </div>
           </div>
         </ScrollAnimation>
@@ -175,11 +175,11 @@ const Nosotros = () => {
         >  
           <div className='flex flex-col md:flex-row'>
             <div className='w-full md:w-6/12 flex flex-col items-center justify-center bg-footer text-white py-6 md:py-0'>
-              <span className='text-2xl font-extrabold mb-2 md:mb-6'>TALENTO</span>
-              <span className='w-80 text-center text-[14px]'>Nuestro equipo está compuesto por proactivos, diseñadores e ingenieros civiles que se dedican a generar las herramientas necesarias para optimizar las soluciones y ofrecer a nuestros clientes trabajo eficiente y responsable. </span>
+              <span className='text-2xl font-extrabold mb-2 md:mb-6 xl:text-3xl 2xl:text-4xl'>TALENTO</span>
+              <span className='w-80 text-center text-[14px] xl:text-[16px] 2xl:text-[18px]'>Nuestro equipo está compuesto por proactivos, diseñadores e ingenieros civiles que se dedican a generar las herramientas necesarias para optimizar las soluciones y ofrecer a nuestros clientes trabajo eficiente y responsable. </span>
             </div>
             <div className='w-full md:w-6/12'>
-              <img src={talento} alt="talento etranserge" className="h-64 w-full" />
+              <img src={talento} alt="talento etranserge" className="h-64 w-full lg:h-full" />
             </div>
           </div>
         </ScrollAnimation>
@@ -192,11 +192,11 @@ const Nosotros = () => {
         >
           <div className='flex flex-col-reverse md:flex-row'>
             <div className='w-full md:w-5/8'>
-              <img src={valor} alt="valor etranserge" className="h-64 w-full" />
+              <img src={valor} alt="valor etranserge" className="h-64 w-full lg:h-full" />
             </div>
             <div className='w-full md:w-3/8 flex flex-col items-center justify-center bg-secondary text-white py-6 md:py-0'>
-              <span className='text-2xl font-extrabold mb-2 md:mb-6'>VALOR</span>
-              <span className='w-60 text-center text-[14px]'>Esto significa que abarcamos todo el proceso para el desarrollo de su proyecto en obra. </span>
+              <span className='text-2xl font-extrabold mb-2 md:mb-6 xl:text-3xl 2xl:text-4xl'>VALOR</span>
+              <span className='w-60 text-center text-[14px] xl:text-[16px] 2xl:text-[18px]'>Esto significa que abarcamos todo el proceso para el desarrollo de su proyecto en obra. </span>
             </div>
           </div>
         </ScrollAnimation>

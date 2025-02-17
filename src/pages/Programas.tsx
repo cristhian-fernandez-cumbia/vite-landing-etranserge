@@ -9,6 +9,8 @@ import icono_foco from './../assets/programas/icono_foco.png'
 import icono_global from './../assets/programas/icono_global.png'
 import icono_ajuste from './../assets/programas/icono_ajuste.png'
 import icono_lupa from './../assets/programas/icono_lupa.png'
+import ScrollAnimation from 'react-animate-on-scroll';
+import 'animate.css/animate.compat.css';
 
 const Programas = () => {
 
@@ -40,12 +42,19 @@ const Programas = () => {
         <div className='py-12 xl:py-16 2xl:py-20 px-10'>
           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12 xl:gap-14 2xl:gap-16 justify-items-center'>
             {items.map((item, index) => (
-              <div key={index} className='bg-[#7AB10A] p-6 rounded-lg shadow-lg max-w-[450px]'>
-                <div className='flex justify-center mb-0'>
-                  <img src={item.icon} alt="Icono" className="w-16 h-16 object-contain xl:w-20 xl:h-20" />
+              <ScrollAnimation
+                animateIn={'zoomIn'}
+                animateOnce={true}
+                offset={100}
+                key={index}
+              >
+                <div key={index} className='bg-[#7AB10A] p-6 rounded-lg shadow-lg max-w-[450px] flex flex-col justify-center h-full' >
+                  <div className='flex justify-center mb-2'>
+                    <img src={item.icon} alt="Icono" className="w-16 h-16 object-contain xl:w-20 xl:h-20" />
+                  </div>
+                  <p className='text-white text-center text-[14px] lg:text-[15px] xl:text-[16px]'>{item.description}</p>
                 </div>
-                <p className='text-white text-center text-[14px] lg:text-[15px] xl:text-[16px]'>{item.description}</p>
-              </div>
+              </ScrollAnimation>
             ))}
           </div>
         </div>
