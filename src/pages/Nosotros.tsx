@@ -176,7 +176,7 @@ const Nosotros = () => {
           <div className='flex flex-col md:flex-row'>
             <div className='w-full md:w-6/12 flex flex-col items-center justify-center bg-footer text-white py-6 md:py-0'>
               <span className='text-2xl font-extrabold mb-2 md:mb-6 xl:text-3xl 2xl:text-4xl'>TALENTO</span>
-              <span className='w-80 text-center text-[14px] xl:text-[16px] 2xl:text-[18px]'>Nuestro equipo está compuesto por proactivos, diseñadores e ingenieros civiles que se dedican a generar las herramientas necesarias para optimizar las soluciones y ofrecer a nuestros clientes trabajo eficiente y responsable. </span>
+              <span className='w-80 text-center text-[14px] xl:text-[16px] 2xl:text-[18px]'>Nuestro equipo está compuesto por un equipo de lideres que cuentan con habilidades, conocimientos, experiencias y potencial, que se dedican a generar las herramientas necesarias para optimizar las soluciones y ofrecer a nuestros clientes trabajo eficiente y responsable.. </span>
             </div>
             <div className='w-full md:w-6/12'>
               <img src={talento} alt="talento etranserge" className="h-64 w-full lg:h-full" />
@@ -187,7 +187,7 @@ const Nosotros = () => {
         <ScrollAnimation
           animateIn={'fadeInLeft'}
           animateOnce={true}
-          offset={100} // Se aplica cuando se ha desplazado una cierta distancia
+          offset={100}
           style={{ width: "100%" }}
         >
           <div className='flex flex-col-reverse md:flex-row'>
@@ -195,11 +195,33 @@ const Nosotros = () => {
               <img src={valor} alt="valor etranserge" className="h-64 w-full lg:h-full" />
             </div>
             <div className='w-full md:w-3/8 flex flex-col items-center justify-center bg-secondary text-white py-6 md:py-0'>
-              <span className='text-2xl font-extrabold mb-2 md:mb-6 xl:text-3xl 2xl:text-4xl'>VALOR</span>
-              <span className='w-60 text-center text-[14px] xl:text-[16px] 2xl:text-[18px]'>Esto significa que abarcamos todo el proceso para el desarrollo de su proyecto en obra. </span>
+              <span className='text-2xl font-extrabold mb-2 md:mb-6 xl:text-3xl 2xl:text-4xl'>NUESTROS VALORES</span>
+              <div className="w-full flex justify-center">
+                <ul className="w-60 text-center text-[14px] xl:text-[16px] 2xl:text-[18px] space-y-2 text-white">
+                  <li className="flex items-center justify-center gap-2">
+                    <span className="text-white">✓</span> Excelencia
+                  </li>
+                  <li className="flex items-center justify-center gap-2">
+                    <span className="text-white">✓</span> Compromiso
+                  </li>
+                  <li className="flex items-center justify-center gap-2">
+                    <span className="text-white">✓</span> Respeto
+                  </li>
+                  <li className="flex items-center justify-center gap-2">
+                    <span className="text-white">✓</span> Honestidad
+                  </li>
+                  <li className="flex items-center justify-center gap-2">
+                    <span className="text-white">✓</span> Responsabilidad
+                  </li>
+                  <li className="flex items-center justify-center gap-2">
+                    <span className="text-white">✓</span> Credibilidad
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </ScrollAnimation>
+
       </div>
 
       <div className='my-12 flex flex-row justify-center text-[24px]'>

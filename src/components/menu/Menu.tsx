@@ -4,9 +4,14 @@ type MenuProps = {
   mobile?: boolean
 }
 
-const removeAccents = (str: string) => {
-  return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-}
+const menuItems = [
+  { label: 'Inicio', path: '/' },
+  { label: 'Nosotros', path: '/nosotros' },
+  { label: 'Sist. de Gestión', path: '/sistemagestion' },
+  { label: 'Proyectos', path: '/proyectos' },
+  { label: 'Equipos', path: '/equipos' },
+  { label: 'Contáctanos', path: '/contactanos' }
+]
 
 export const Menu = ({ mobile = false }: MenuProps) => {
   const linkClass = `px-3 py-2 rounded-md text-sm font-medium ${
@@ -15,10 +20,10 @@ export const Menu = ({ mobile = false }: MenuProps) => {
 
   return (
     <div className={`${mobile ? 'space-y-1' : 'space-x-4'}`}>
-      {['Inicio', 'Nosotros', 'Programas', 'Proyectos', 'Equipos', 'Contáctanos'].map((item) => (
+      {menuItems.map(({ label, path }) => (
         <NavLink
-          key={item}
-          to={item === 'Inicio' ? '/' : `/${removeAccents(item.toLowerCase())}`}
+          key={label}
+          to={path}
           className={({ isActive }) =>
             `${linkClass} ${
               isActive
@@ -27,7 +32,7 @@ export const Menu = ({ mobile = false }: MenuProps) => {
             }`
           }
         >
-          {item}
+          {label}
         </NavLink>
       ))}
     </div>

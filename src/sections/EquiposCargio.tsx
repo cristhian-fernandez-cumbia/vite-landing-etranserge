@@ -15,7 +15,7 @@ const EquiposCargio = () => {
   useEffect(() => {
     if (!startCounting) return; // No hacer nada si no debemos contar
 
-    const target = 20; // El número final que quieres alcanzar
+    const target = 45; // El número final que quieres alcanzar
     const duration = 2000; // Tiempo total de la animación (en milisegundos)
     const increment = target / (duration / 50); // Incremento por intervalo (50ms)
     

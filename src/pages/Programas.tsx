@@ -119,8 +119,8 @@ const Programas = () => {
     <div>
       <div className='flex flex-col py-12 px-10 lg:flex-row'>
         <div className='flex flex-col justify-center items-center mb-5 lg:w-1/2 lg:items-start'>
-          <h1 className='text-3xl xl:text-4xl 2xl:text-5xl w-[300px] xl:w-[350px] 2xl:w-[450px] text-center font-extrabold text-secundario mb-2 lg:text-left'><span className='text-primario'>Programa de</span> Seguridad y Salud Ocupacional</h1>
-          <p className='text-primario text-[15px] lg:text-[16px]  xl:text-[18px] 2xl:text-[20px] font-medium text-center lg:text-left'>En ETRANSERGE S.R.L, estamos comprometidos en respetar y dar cumplimiento a su Política Empresarial, la misma que abarca los aspectos en materia de Calidad.</p>
+          <h1 className='text-3xl xl:text-4xl 2xl:text-5xl w-[350px] xl:w-[380px] 2xl:w-[450px] text-center font-extrabold text-secundario mb-2 lg:text-left'><span className='text-primario'>SISTEMA DE</span>  GESTIÓN (SIG) </h1>
+          <p className='text-primario text-[15px] lg:text-[16px]  xl:text-[18px] 2xl:text-[20px] font-medium text-center lg:text-left'>En En ETRANSERGE estamos enfocados en establecer una operación que orienta nuestras fuerzas laborales, maquinaria y equipos, adecuando la información estructurada para garantizar clientes satisfechos y la calidad del servicio, monitoreando y coordinando la implementación de políticas en la salvaguarda del servicio.</p>
         </div>
         <div className='flex justify-center items-center lg:w-1/2'>
           <img src={seguridad} alt="Seguridad y Salud Ocupacional" className="w-full object-cover object-center max-w-lg" />
@@ -159,8 +159,8 @@ const Programas = () => {
           <div className='hidden md:block md:w-[20%]'></div>
           <div className='flex flex-col md:flex-row w-[80%] bg-secondary py-8 px-6 xl:px-12 2xl:px-16 items-center'>
             <div className='md:w-[70%] flex-col'>
-              <h1 className='text-2xl xl:text-3xl 2xl:text-4xl text-center mb-3 font-bold w-[70%] m-auto'>Programa de <span className='text-secundario'>Protección de los Recursos</span></h1>
-              <p className='text-center mb-5 font-normal text-[14px] pr-6 lg:text-[16px] xl:text-[18px] 2xl:text-[20px] lg:text-left'>El programa de seguridad se considera como una función de la administración, al igual que la producción, la calidad los costos operacionales, entre otras razones por que la seguridad no es más que el resultado de un trabajo bien ordenado y por qué las causas de los accidentes son las mismas que alteran la eficiencia operacional en cada uno de los aspectos, de tal forma, resulta indispensable que el liderazgo ejercido por nuestra supervisión en el desarrollo del Programa de seguridad sea evidente y suficiente en cantidad y calidad para crear un clima de aceptación y participación de todos los trabajadores.</p>
+              <h1 className='text-2xl xl:text-3xl 2xl:text-4xl text-center mb-3 font-bold w-[70%] m-auto'><span className='text-secundario'>Seguridad</span></h1>
+              <p className='text-center mb-5 font-normal text-[14px] pr-6 lg:text-[16px] xl:text-[18px] 2xl:text-[20px] lg:text-left'>Nuestros colaboradores constituyen el núcleo principal de ETRANSERGE. Nos centramos en ellos para lograr el objetivo de "cero accidentes" y garantizar un entorno laboral armónico y saludable.</p>
             </div>
             <div className='md:w-[30%]'>
               <img src={proteccion_recursos} alt="Icono" className="w-full h-full object-contain" />
@@ -181,10 +181,10 @@ const Programas = () => {
               <img src={reconocimiento_promocion} alt="Icono" className="w-full h-full object-contain" />
             </div>
             <div className='md:w-[70%] flex-col'>
-              <h1 className='text-2xl xl:text-3xl 2xl:text-4xl text-center mb-3 font-bold w-[70%] m-auto'>Programa de <span className='text-primario'>Reconocimiento y Promoción</span></h1>
-              <p className='text-center mb-5 font-normal text-[14px] pl-6 lg:text-[16px] xl:text-[18px] 2xl:text-[20px] lg:text-left'>Definir y mantener un programa de promoción y reconocimiento de personal.</p>
-              <p className='text-center mb-5 font-normal text-[14px] pl-6 lg:text-[16px] xl:text-[18px] 2xl:text-[20px] lg:text-left'>Promover reconocimiento por áreas destacadas.</p>
-              <p className='text-center mb-5 font-normal text-[14px] pl-6 lg:text-[16px] xl:text-[18px] 2xl:text-[20px] lg:text-left'>Uso y promoción de estadísticas.</p>
+              <h1 className='text-2xl xl:text-3xl 2xl:text-4xl text-center mb-3 font-bold w-[70%] m-auto'>Gestión <span className='text-primario'>Ambiental</span></h1>
+              <p className='text-center mb-5 font-normal text-[14px] pl-6 lg:text-[16px] xl:text-[18px] 2xl:text-[20px] lg:text-left'>ETRANSERGE toma un conjunto de acciones y estrategias que buscan proteger y preservar el medio ambiente, promoviendo el desarrollo sostenible de nuestras operaciones.</p>
+              {/* <p className='text-center mb-5 font-normal text-[14px] pl-6 lg:text-[16px] xl:text-[18px] 2xl:text-[20px] lg:text-left'>Promover reconocimiento por áreas destacadas.</p>
+              <p className='text-center mb-5 font-normal text-[14px] pl-6 lg:text-[16px] xl:text-[18px] 2xl:text-[20px] lg:text-left'>Uso y promoción de estadísticas.</p> */}
             </div>
           </div>
           <div className='hidden md:block md:w-[20%]'></div>
@@ -219,8 +219,8 @@ const Programas = () => {
           <div className='hidden md:block md:w-[20%]'></div>
           <div className='flex flex-col md:flex-row w-[80%] bg-secondary py-8 px-6 xl:px-12 2xl:px-16 items-center'>
             <div className='md:w-[70%] flex-col'>
-              <h1 className='text-2xl xl:text-3xl 2xl:text-4xl text-center mb-3 font-bold w-[70%] m-auto'>Programa de <span className='text-secundario'>Bienestar Social</span></h1>
-              <p className='text-center mb-5 font-normal text-[14px] pr-6 lg:text-[16px] xl:text-[18px] 2xl:text-[20px] lg:text-left'>Su objetivo principal es contribuir a la labor social de la empresa, disminuyendo los problemas en asuntos laborales, que puedan afectar el normal desempeño del trabajador. Se continuará con la labor asistencial a los trabajadores, tomando en cuenta la problemática socio económica del trabajador. Se seguirá brindando servicios de atención personalizada al trabajador que lo solicite, así como a sus familiares.</p>
+              <h1 className='text-2xl xl:text-3xl 2xl:text-4xl text-center mb-3 font-bold w-[70%] m-auto'>Bienestar <span className='text-secundario'>Social</span></h1>
+              <p className='text-center mb-5 font-normal text-[14px] pr-6 lg:text-[16px] xl:text-[18px] 2xl:text-[20px] lg:text-left'>En ETRANSERGE el bienestar social y el sentido de pertenencia son fundamentales para nuestro desarrollo operativo. Por lo que fomentamos y motivamos en nuestros colaboradores el sentirse parte del equipo.</p>
             </div>
             <div className='md:w-[30%]'>
               <img src={bienestar_social} alt="Icono" className="w-full h-full object-contain" />
@@ -254,8 +254,8 @@ const Programas = () => {
               <img src={calidad_servicio} alt="Icono" className="w-full h-full object-contain" />
             </div>
             <div className='md:w-[70%] flex-col'>
-              <h1 className='text-2xl xl:text-3xl 2xl:text-4xl text-center mb-3 font-bold w-[70%] m-auto'>Programa de <span className='text-primario'>dispuesto a sus necesidades</span></h1>
-              <p className='text-center mb-5 font-normal text-[14px] pl-6 lg:text-[16px] xl:text-[18px] 2xl:text-[20px] lg:text-left'>Es debido a todos y cada uno de los clientes que depositan su confianza en nosotros que logramos consolidar nuestro camino y afrontar nuevos desafíos que nos alientan a seguir creciendo. </p>
+              <h1 className='text-2xl xl:text-3xl 2xl:text-4xl text-center mb-3 font-bold w-[70%] m-auto'>Satisfacción al <span className='text-primario'>Cliente</span></h1>
+              <p className='text-center mb-5 font-normal text-[14px] pl-6 lg:text-[16px] xl:text-[18px] 2xl:text-[20px] lg:text-left'>Es debido a todos y cada uno de los clientes que depositan su confianza en nosotros que logramos consolidar nuestro camino y afrontamos nuevos desafíos que nos alientan a seguir creciendo. </p>
               <p className='text-center mb-5 font-normal text-[14px] pl-6 lg:text-[16px] xl:text-[18px] 2xl:text-[20px] lg:text-left'>Gracias a ellos renovamos a diario el compromiso de trabajar arduamente en la calidad de nuestros servicios, ofreciendo las mejores soluciones a las crecientes demandas del mercado.</p>
               <p className='text-center mb-5 font-normal text-[14px] pl-6 lg:text-[16px] xl:text-[18px] 2xl:text-[20px] lg:text-left'>Estamos orgullosos de todos los clientes que nos han elegido, confiando en la experiencia y trayectoria de nuestra empresa, y que nos impulsan a esforzamos cada vez más para brindar un servicio de mejor calidad y mayor confiabilidad.</p>
             </div>

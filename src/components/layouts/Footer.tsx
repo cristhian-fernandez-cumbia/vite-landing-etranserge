@@ -35,7 +35,7 @@ const Footer = () => {
               <NavLink to="/nosotros" className="text-white hover:text-primary">Nosotros</NavLink>
             </li>
             <li className='text-[18px] mb-2'>
-              <NavLink to="/programas" className="text-white hover:text-primary">Programas</NavLink>
+              <NavLink to="/sistemagestion" className="text-white hover:text-primary">Sistema de Gestión</NavLink>
             </li>
             <li className='text-[18px] mb-2'>
               <NavLink to="/proyectos" className="text-white hover:text-primary">Proyectos</NavLink>
