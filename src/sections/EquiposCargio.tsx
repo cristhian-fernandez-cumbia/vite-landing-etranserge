@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from 'react';
-import equipo01 from './../assets/equipos-cargio/equipo01.jpeg';
-import equipo02 from './../assets/equipos-cargio/equipo02.jpeg';
-import equipo03 from './../assets/equipos-cargio/equipo03.jpeg';
+import equipo01 from './../assets/equipos-cargio/equipo01.jpg';
+import equipo02 from './../assets/equipos-cargio/equipo02.jpg';
+import equipo03 from './../assets/equipos-cargio/equipo03.jpg';
 import { NavLink } from 'react-router-dom';
 import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css/animate.compat.css';

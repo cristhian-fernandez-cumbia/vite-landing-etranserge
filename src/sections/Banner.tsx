@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import banner from './../assets/banner/banner_etranserge.jpeg';
+import banner from './../assets/banner/banner_etranserge.jpg';
 import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css/animate.compat.css';
 

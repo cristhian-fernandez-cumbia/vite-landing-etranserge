@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
-import cama_baja from './../assets/equipos/cama_baja.png';
-import bombonas from './../assets/equipos/bombonas.png';
-import encapsulado from './../assets/equipos/encapsulado.png';
+import cama_baja from './../assets/equipos/equipo05.jpg';
+import bombonas from './../assets/equipos/equipo06.jpg';
+import encapsulado from './../assets/equipos/equipo07.jpg';
 import { NavLink } from 'react-router-dom';
 import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css/animate.compat.css';
