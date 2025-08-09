@@ -5,7 +5,7 @@ import encapsulado from './../assets/equipos/encapsulado.png'
 import excavadora from './../assets/equipos/equipo08.jpg'
 import motoniveladora from './../assets/equipos/equipo10.jpg'
 import plataforma from './../assets/equipos/plataforma.png'
-import rodillo from './../assets/equipos/rodillo.png'
+import rodillo from './../assets/equipos/equipo11.jpg'
 import tractor from './../assets/equipos/tractor.png'
 import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css/animate.compat.css';
