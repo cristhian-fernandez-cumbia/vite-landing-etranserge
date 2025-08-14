@@ -4,9 +4,9 @@ import cargador from './../assets/equipos/equipo09.jpg'
 import encapsulado from './../assets/equipos/encapsulado.png'
 import excavadora from './../assets/equipos/equipo08.jpg'
 import motoniveladora from './../assets/equipos/equipo10.jpg'
-import plataforma from './../assets/equipos/plataforma.png'
+import plataforma from './../assets/equipos/img_plataforma.jpg'
 import rodillo from './../assets/equipos/equipo11.jpg'
-import tractor from './../assets/equipos/tractor.png'
+import tractor from './../assets/equipos/img_tractor.jpg'
 import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css/animate.compat.css';
 import { useEffect } from 'react'
