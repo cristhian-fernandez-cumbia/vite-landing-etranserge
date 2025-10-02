@@ -120,7 +120,7 @@ const Programas = () => {
       <div className='flex flex-col py-12 px-10 lg:flex-row'>
         <div className='flex flex-col justify-center items-center mb-5 lg:w-1/2 lg:items-start'>
           <h1 className='text-3xl xl:text-4xl 2xl:text-5xl w-[350px] xl:w-[380px] 2xl:w-[450px] text-center font-extrabold text-secundario mb-2 lg:text-left'><span className='text-primario'>SISTEMA DE</span>  GESTIÓN (SIG) </h1>
-          <p className='text-primario text-[15px] lg:text-[16px]  xl:text-[18px] 2xl:text-[20px] font-medium text-center lg:text-left'>En En ETRANSERGE estamos enfocados en establecer una operación que orienta nuestras fuerzas laborales, maquinaria y equipos, adecuando la información estructurada para garantizar clientes satisfechos y la calidad del servicio, monitoreando y coordinando la implementación de políticas en la salvaguarda del servicio.</p>
+          <p className='text-primario text-[15px] lg:text-[16px]  xl:text-[18px] 2xl:text-[20px] font-medium text-center lg:text-left'>En ETRANSERGE estamos enfocados en establecer una operación que orienta nuestras fuerzas laborales, maquinaria y equipos, adecuando la información estructurada para garantizar clientes satisfechos y la calidad del servicio, monitoreando y coordinando la implementación de políticas en la salvaguarda del servicio.</p>
         </div>
         <div className='flex justify-center items-center lg:w-1/2'>
           <img src={seguridad} alt="Seguridad y Salud Ocupacional" className="w-full object-cover object-center max-w-lg" />

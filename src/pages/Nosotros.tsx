@@ -104,14 +104,13 @@ const Nosotros = () => {
       >
         <div className="absolute inset-0 bg-black opacity-75"></div>
         <p className="relative z-10 w-[450px] md:w-[500px] lg:w-[550px] xl:w-[600px] text-[14px] md:text-[15px] lg:text-[16px] xl:text-[17px] 2xl:text-[18px]">
-          ETRANSERGE S.R.L, constituida el 17 de enero de 2002, tiene como finalidad ofrecer la prestación de
+          ETRANSERGE, constituida el 17 de enero de 2002, tiene como finalidad ofrecer la prestación de
           servicios inherentes y/o conexos tanto a la Construcción y Minería, brindando servicios específicos, con el
           propósito de reducir los costos e incrementar la productividad de sus clientes en la ejecución de trabajos
-          de transporte de mineral y otros. ETRANSERGE S.R.L cuenta con un equipo especializado de gran experiencia en
+          de transporte de mineral y otros. ETRANSERGE cuenta con un equipo especializado de gran experiencia en
           la prestación de Servicios de Carguío y Movimiento de tierras; además del servicio de transporte, los cuales
-          nos permite ofrecer un servicio de calidad. ETRANSERGE S.R.L opera de acuerdo a la política establecida por
-          el Directorio, bajo la dirección de su Gerente General. ETRANSERGE S.R.L opera de acuerdo a la política
-          establecida por el Directorio, bajo la dirección de su Gerente General.
+          nos permite ofrecer un servicio de calidad. ETRANSERGE opera de acuerdo a la política establecida por
+          el Directorio, bajo la dirección de su Gerente General.
         </p>
       </div>
 
@@ -162,7 +161,7 @@ const Nosotros = () => {
             </div>
             <div className='w-full md:w-3/8 flex flex-col items-center justify-center bg-secondary text-white py-6 md:py-0'>
               <span className='text-2xl font-extrabold mb-2 md:mb-6 xl:text-3xl 2xl:text-4xl'>EQUIPO</span>
-              <span className='w-60 text-center text-[14px] xl:text-[16px] 2xl:text-[18px]'>En ETRANSERGE S.R.L. Apostamos por el talento como diferenciación. </span>
+              <span className='w-60 text-center text-[14px] xl:text-[16px] 2xl:text-[18px]'>En ETRANSERGE Apostamos por el talento como diferenciación. </span>
             </div>
           </div>
         </ScrollAnimation>
@@ -227,7 +226,7 @@ const Nosotros = () => {
       <div className='my-12 flex flex-row justify-center text-[24px]'>
         <div className='w-80 md:w-96 lg:w-[450px] xl:w-[600px] flex flex-col items-end text-[24px]'>
           <h3 className='comentario text-[14px] md:text-[17px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px]'>
-            "En ETRANSERGE S.R.L., nuestro mayor activo son las personas que conforman nuestro equipo, cuyo esfuerzo, dedicación y profesionalismo hacen posible el éxito de cada proyecto."
+            "En ETRANSERGE, nuestro mayor activo son las personas que conforman nuestro equipo, cuyo esfuerzo, dedicación y profesionalismo hacen posible el éxito de cada proyecto."
           </h3>
           <span className='comentario'>-Carlos Agüero</span>
         </div>

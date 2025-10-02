@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="lg:w-1/2 flex flex-row mt-2 justify-center lg:justify-start mb-5 lg:mb-0">
         <img src={logo} alt="Logo Etranserge" className="h-16 mr-5"/>
         <div className=' flex flex-col'>
-          <span className='text-xl font-bold text-white'>ETRANSERGE S.R.L</span>
+          <span className='text-xl font-bold text-white'>ETRANSERGE</span>
           <span className='text-[16px] text-white mb-5'>Empresa de Transportes y Servicios Genuinos S.R.L</span>
           <div className='flex flex-row'>
             <div className='p-2 bg-icon rounded-full mr-3'>
@@ -46,11 +46,11 @@ const Footer = () => {
           </ul>
         </div>
         <div className="lg:w-2/3 flex flex-col items-center lg:items-start">
-        <h2 className='text-3xl font-bold mb-6'>Contáctanos</h2>
+          <h2 className='text-3xl font-bold mb-6'>Contáctanos</h2>
           <ul>
             <li className='text-[18px] mb-3 flex flex-row items-center justify-center lg:justify-start'>
               <Phone className='w-7 h-7 mr-3'/>
-              <span >+51 995 964 600</span>
+              <span>+51 995 964 600</span>
             </li>
             <li className='text-[18px] mb-2 flex flex-row items-center justify-center lg:justify-start'>
               <Email className='w-7 h-7 mr-3 mt-1'/>
@@ -60,7 +60,34 @@ const Footer = () => {
               <Place className='w-9 h-9 mr-4'/>
               <span>Jr. Los Álamos N°309 Urb. Los Ficus - Santa Anita - Lima</span>
             </li>
-          </ul></div>
+          </ul>
+          
+          <div className='mt-3 w-full flex flex-col gap-4'>
+            <div className='flex flex-col items-center lg:items-start gap-2'>
+              <p className='text-[18px] font-semibold'>Consulta de comprobante Electrónico</p>
+              <a 
+                href="https://www.nubefact.com/find_document" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className='bg-[#183156] text-white px-6 py-2 rounded-lg hover:bg-[#0f1f3a] transition-colors duration-300 font-medium'
+              >
+                Consultar Comprobante
+              </a>
+            </div>
+            
+            <div className='flex flex-col items-center lg:items-start gap-2'>
+              <p className='text-[18px] font-semibold'>Consulta de validez del comprobante de pago electrónico</p>
+              <a 
+                href="https://e-consulta.sunat.gob.pe/ol-ti-itconsvalicpe/ConsValiCpe.htm" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className='bg-[#183156] text-white px-6 py-2 rounded-lg hover:bg-[#0f1f3a] transition-colors duration-300 font-medium'
+              >
+                Validar en SUNAT
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )

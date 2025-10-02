@@ -53,35 +53,41 @@ const Contactanos = () => {
       <div>
         <img src={bannerContactanos} alt="banner-top-contactanos" className='h-32 w-full' />
       </div>
-      <div className='flex flex-col md:flex-row pt-14 pb-10'>
-        <div className='w-full md:w-1/2 text-[#183156] justify-center flex flex-row mb-12 md:mb-0'>
-          <div className='flex flex-row border-0 md:border-x-[1px] md:border-r-black px-8 justify-center'>
-            <img src={phone} alt="telefono contactanos" className='h-12' />
-            <div className='flex flex-col text-[16px] items-center'>
-              <h5 className='font-extrabold'>¡Llámanos!</h5>
-              <span className='font-medium'>(+51) 995 964 600</span>
-            </div>
-          </div>
-        </div>
-        <div className='w-full md:w-1/2 text-[#183156] justify-center flex flex-row'>
-          <div className='flex flex-row border-0 md:border-x-[1px] md:border-r-black pr-8 pl-6 justify-center'>
-            <img src={mail} alt="telefono contactanos" className='h-12' />
-            <div className='flex flex-col text-[16px] items-center'>
-              <h5 className='font-extrabold'>¡Escríbanos!</h5>
-              <span className='font-medium'>administracion@etranserge.com</span>
-            </div>
-          </div>
+      <div className='flex flex-col md:flex-row pt-14 pb-10 justify-center gap-8 md:gap-0'>
+  <div className='flex flex-col md:flex-row pt-10 pb-10 justify-center gap-8 md:gap-0 md:divide-x md:divide-black'>
+    <div className='w-full md:w-1/3 text-[#183156] justify-center flex flex-row'>
+      <div className='flex flex-row px-8 justify-center items-center gap-3'>
+        <img src={phone} alt="telefono contactanos" className='h-12' />
+        <div className='flex flex-col text-[16px]'>
+          <h5 className='font-extrabold'>¡Llámanos!</h5>
+          <span className='font-medium'>362-95 23</span>
+          <span className='font-medium'>345-94 41</span>
+          <span className='font-medium'>989 446 759</span>
         </div>
       </div>
-      <div className='flex flex-row justify-center pb-14'>
-        <div className='flex flex-row border-0 md:border-x-[1px] md:border-r-black w-96 pr-8 pl-6 justify-center'>
-          <img src={place} alt="telefono contactanos" className='h-12' />
-          <div className='flex flex-col text-[16px] items-center'>
-            <h5 className='font-extrabold'>Oficina Central</h5>
-            <span className='font-medium text-center'>Jr. Los Álamos N°309 Urb. Los Ficus - Santa Anita - Lima</span>
-          </div>
+    </div>
+    
+    <div className='w-full md:w-1/3 text-[#183156] justify-center flex flex-row'>
+      <div className='flex flex-row px-8 justify-center items-center gap-3'>
+        <img src={mail} alt="telefono contactanos" className='h-12' />
+        <div className='flex flex-col text-[16px]'>
+          <h5 className='font-extrabold'>¡Escríbanos!</h5>
+          <span className='font-medium'>administracion@etranserge.com</span>
         </div>
       </div>
+    </div>
+    
+    <div className='w-full md:w-1/3 text-[#183156] justify-center flex flex-row'>
+      <div className='flex flex-row px-8 justify-center items-center gap-3'>
+        <img src={place} alt="telefono contactanos" className='h-12' />
+        <div className='flex flex-col text-[16px]'>
+          <h5 className='font-extrabold'>Oficina Central</h5>
+          <span className='font-medium text-center'>Jr. Los Álamos N°309 Urb. Los Ficus - Santa Anita - Lima</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
       <div className='bg-cover bg-center h-auto md:h-[600px] py-8 px-10 md:px-0 md:py-0' style={{ backgroundImage: `url(${bannerFormulario})` }}>
         <div className='flex flex-col-reverse md:flex-row justify-center items-center h-full'>

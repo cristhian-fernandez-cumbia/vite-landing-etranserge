@@ -13,11 +13,11 @@ import { useEffect } from 'react'
 
 const Equipos = () => {
   const items_cargio = [
-    { image: excavadora, title:"Excavadora", description: "Las excavadoras son máquinas esenciales para realizar diversas tareas como excavar, mover tierra, cargar materiales y nivelar terrenos. Su versatilidad las hace indispensables en proyectos de minería, construcción, obras viales y más." },
-    { image: cargador, title:"Cargador Frontal", description: "El Cargador Frontal  es una máquina pesada utilizada en minería para realizar acarreo, carga de material (mineral, desmonte, relaves) y corte de salud." },
-    { image: motoniveladora, title:"Motoniveladora", description: "La motoniveladora es utilizada principalmente para nivelar y dar forma a superficies. Equipo de gran importancia en minería para el mantenimiento de vías, extendido de material en plataformas, entre otros." },
-    { image: rodillo, title:"Rodillos 10 y 12Tn.", description: "El Rodillo máquina utilizada para compactar diferentes tipos de materiales, como desmonte, tierra, concreto, relave entre otros con el objetivo de mejorar la densidad y estabilidad de la superficie." },
-    { image: tractor, title:"Tractor", description: "El tractor es una máquina pesada utilizada en construcción y minería, especialmente en terrenos difíciles, debido a su tracción superior y estabilidad. Su diseño con orugas le permite operar en superficies irregulares, pendientes y terrenos inestables, a diferencia de los tractores con ruedas." }
+    { image: excavadora, title:"Excavadora", description: "Máquinas esenciales para realizar diversas tareas como excavar, mover tierra, cargar materiales y nivelar terrenos. Su versatilidad las hace indispensables en proyectos de minería, construcción, obras viales y más." },
+    { image: cargador, title:"Cargador Frontal", description: "Máquina pesada utilizada en minería para realizar acarreo, carga de material (mineral, desmonte, relaves) y corte de salud." },
+    { image: motoniveladora, title:"Motoniveladora", description: "Utilizada principalmente para nivelar y dar forma a superficies. Equipo de gran importancia en minería para el mantenimiento de vías, extendido de material en plataformas, entre otros." },
+    { image: rodillo, title:"Rodillos 10 y 12Tn.", description: "Máquina utilizada para compactar diferentes tipos de materiales, como desmonte, tierra, concreto, relave entre otros con el objetivo de mejorar la densidad y estabilidad de la superficie." },
+    { image: tractor, title:"Tractor", description: "Máquina pesada utilizada en construcción y minería, especialmente en terrenos difíciles, debido a su tracción superior y estabilidad. Su diseño con orugas le permite operar en superficies irregulares, pendientes y terrenos inestables, a diferencia de los tractores con ruedas." }
   ];
   const items_transporte = [
     { image: cama_baja, title:"Cama baja", description: "En minería, una cama baja (también conocida como lowboy o remolque de plataforma baja) es un tipo de remolque utilizado para transportar maquinaria pesada y equipos de grandes dimensiones." },
