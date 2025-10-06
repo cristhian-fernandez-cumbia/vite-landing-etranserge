@@ -5,10 +5,11 @@ import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <div className="flex bg-footer py-20 px-16 flex-col lg:flex-row">
-      <div className="lg:w-1/2 flex flex-row mt-2 justify-center lg:justify-start mb-5 lg:mb-0">
+    <div className="flex bg-footer py-20 px-16 flex-col lg:flex-row lg:gap-8">
+      {/* 1ra columna - Logo y redes sociales */}
+      <div className="lg:w-1/3 flex flex-row mt-2 justify-center lg:justify-start mb-8 lg:mb-0">
         <img src={logo} alt="Logo Etranserge" className="h-16 mr-5"/>
-        <div className=' flex flex-col'>
+        <div className='flex flex-col'>
           <span className='text-xl font-bold text-white'>ETRANSERGE</span>
           <span className='text-[16px] text-white mb-5'>Empresa de Transportes y Servicios Genuinos S.R.L</span>
           <div className='flex flex-row'>
@@ -27,8 +28,11 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="lg:w-1/2 text-white flex lg:flex-row gap-6 flex-col text-center lg:text-left">
-        <div className="w-full lg:w-1/3 flex flex-col">
+
+      {/* Contenedor para las 3 columnas restantes */}
+      <div className="lg:w-3/4 flex flex-col lg:flex-row lg:gap-8 lg:justify-between">
+        {/* 2da columna - Empresa */}
+        <div className="lg:w-1/4 text-white flex flex-col text-center lg:text-left mb-8 lg:mb-0">
           <h2 className='text-3xl font-bold mb-6'>Empresa</h2>
           <ul>
             <li className='text-[18px] mb-2'>
@@ -45,7 +49,9 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="lg:w-2/3 flex flex-col items-center lg:items-start">
+
+        {/* 3ra columna - Contáctanos */}
+        <div className="text-white flex flex-col text-center lg:text-left mb-8 lg:mb-0">
           <h2 className='text-3xl font-bold mb-6'>Contáctanos</h2>
           <ul>
             <li className='text-[18px] mb-3 flex flex-row items-center justify-center lg:justify-start'>
@@ -61,8 +67,12 @@ const Footer = () => {
               <span>Jr. Los Álamos N°309 Urb. Los Ficus - Santa Anita - Lima</span>
             </li>
           </ul>
-          
-          <div className='mt-3 w-full flex flex-col gap-4'>
+        </div>
+
+        {/* 4ta columna - Consultas */}
+        <div className="text-white flex flex-col text-center lg:text-left">
+          <h2 className='text-3xl font-bold mb-6'>Consultas</h2>
+          <div className='flex flex-col gap-4'>
             <div className='flex flex-col items-center lg:items-start gap-2'>
               <p className='text-[18px] font-semibold'>Consulta de comprobante Electrónico</p>
               <a 
