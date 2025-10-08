@@ -71,21 +71,11 @@ const Equipos = () => {
               </div>
 
               {/* Decoración lateral con imagen */}
-              <div className='hidden md:w-[40%] md:flex md:flex-row md:justify-center md:items-center md:gap-8 relative'>
-                <div className={`flex gap-24 lg:gap-40 ${index % 2 === 0 ? 'rotate-45' : '-rotate-45'}`}>
-                  <div className='w-6 h-6 rotate-45 bg-[#6BAEC3]'></div>
-                  <div className='w-6 h-6 rotate-45 bg-[#F4811F]'></div>
-                </div>
-                
+              <div className='hidden md:w-[40%] md:flex md:flex-row md:justify-center md:items-center md:gap-8 relative'>                
                 {/* Imagen circular posicionada sobre los cuadrados */}
-                <div className="absolute w-32 h-32 bg-white rounded-full lg:w-36 lg:h-36 xl:w-44 xl:h-44 2xl:w-52 2xl:h-52" style={{
-                  top: '50%',
-                  left: '50%',
-                  transform: 'translate(-50%, -50%)',
-                  zIndex: 10
-                }}>
-                  <img src={item.image} alt={item.title} className="w-32 h-32 rounded-full border-3  lg:w-36 lg:h-36 xl:w-44 xl:h-44 2xl:w-52 2xl:h-52 border-orange-400" />
-                </div>
+
+                  <img src={item.image} alt={item.title} className="w-32 h-32 rounded-full border-6  lg:w-48 lg:h-48 xl:w-64 xl:h-64 2xl:w-72 2xl:h-72 border-orange-400" />
+   
               </div>
             </div>
           </ScrollAnimation>
@@ -131,21 +121,9 @@ const Equipos = () => {
               </div>
 
               {/* Decoración lateral con imagen */}
-              <div className='hidden md:w-[40%] md:flex md:flex-row md:justify-center md:items-center md:gap-8 relative'>
-                <div className={`flex gap-24 lg:gap-40 ${index % 2 === 0 ? 'rotate-45' : '-rotate-45'}`}>
-                  <div className='w-6 h-6 rotate-45 bg-[#6BAEC3]'></div>
-                  <div className='w-6 h-6 rotate-45 bg-[#183156]'></div>
-                </div>
-                
+              <div className='hidden md:w-[40%] md:flex md:flex-row md:justify-center md:items-center md:gap-8 relative'>                
                 {/* Imagen circular posicionada sobre los cuadrados */}
-                <div className="absolute w-32 h-32 bg-white rounded-full lg:w-36 lg:h-36 xl:w-44 xl:h-44 2xl:w-52 2xl:h-52" style={{
-                  top: '50%',
-                  left: '50%',
-                  transform: 'translate(-50%, -50%)',
-                  zIndex: 10
-                }}>
-                  <img src={item.image} alt={item.title} className="w-32 h-32 rounded-full border-3 border-orange-400 lg:w-36 lg:h-36 xl:w-44 xl:h-44 2xl:w-52 2xl:h-52" />
-                </div>
+                  <img src={item.image} alt={item.title} className="w-32 h-32 rounded-full border-6  lg:w-48 lg:h-48 xl:w-64 xl:h-64 2xl:w-72 2xl:h-72 border-orange-400" />
               </div>
             </div>
           </ScrollAnimation>
