@@ -3,21 +3,20 @@ import 'animate.css/animate.compat.css';
 
 const Proyectos = () => {
   const items = [
-    { titulo: "CIA. MINERA ISCAYCRUZ", subtitulo: "", meses: "Feb - Nov", ano: "2002", description: "Transporte de concentrado de mineral encapsulado" },
-    { titulo: "CIA. MINERA RAURA", subtitulo: "", meses: "Nov", ano: "2003", description: "Alquiler de vehículos y volquete" },
-    { titulo: "MICONG S.R.L", subtitulo: "", meses: "Nov - Nov", ano: "2003-2005", description: "Transporte de concentrado de mineral" },
-    { titulo: "UNICON", subtitulo: "", meses: "May - Nov", ano: "2006", description: "Transporte de cemento a granel" },
-    { titulo: "EMPRESA MINERA LOS QUENUALES", subtitulo: "", meses: "Feb - Actualidad", ano: "2002", description: "Transporte de cemento a granel" },
-    { titulo: "CIA MINERA VOLCAN S.A.A", subtitulo: "", meses: "Ago - May", ano: "2007 - 2012", description: "Alquiler de maquinas pesadas y volquete. Transporte de concentrado de mineral" },
-    { titulo: "COMPAÑIA MINERA EL BROCAL", subtitulo: "", meses: "2017 - 2019", ano: "", description: "Transporte de concentrado de mineral encapsulado" },
-    { titulo: "CEMENTO ANDINO S.A.", subtitulo: "", meses: "Feb - Dic", ano: "2006", description: "Transporte a granel en bombona" },
-    { titulo: "CONSORCIO MINERO HACIA DOE RUN LA OROYA", subtitulo: "", meses: "May - Dic", ano: "2002 - 2005", description: "Transporte de concentrado de mineral" },
-    { titulo: "NEXA RESOURCES PERU S.A", subtitulo: "", meses: "Mar - Nov", ano: "2009 - 2015", description: "Alquiler de maquina pesada y volquete" },
-    { titulo: "CIA. MINERA YANACOCHA", subtitulo: "", meses: "Ago - Nov", ano: "2003 - 2005", description: "Alquiler de maquina pesada y volquetes (GYM S.A.A.)" },
-    { titulo: "NEXA RESOURCES PERU S.A", subtitulo: "", meses: "Mar - Actualidad", ano: "2005", description: "Alquiler de volquetes" },
-    { titulo: "COMPAÑIA MINERA ALPAYANA", subtitulo: "", meses: "Jun - Oct", ano: "2014 - 2020", description: "Transporte de concentrado de mineral" },
-    { titulo: "COMPAÑIA MINERA ARES SAC", subtitulo: "", meses: "Mar - Actualidad", ano: "2007", description: "Transporte de cemento a granel" }
-  ];
+  { titulo: "SOCIEDAD MINERA EL BROCAL SAA", subtitulo: "", meses: "", ano: "2017 - 2019", description: "Transporte de concentrado de mineral encapsulado" },
+  { titulo: "SOBREANDES SAC (ANTES ALPAYANA)", subtitulo: "", meses: "", ano: "2014 - 2020", description: "Transporte de cemento a granel y en big-bag" },
+  { titulo: "NEXA RESOURCES PERU S.A. (CERRO LINDO)", subtitulo: "", meses: "", ano: "2011 - Actualidad", description: "Alquiler de equipo pesado y transporte de material con volquetes" },
+  { titulo: "COMPAÑÍA MINERA ARES S.A.C.", subtitulo: "", meses: "", ano: "2015 - 2023", description: "Transporte de cemento a granel" },
+  { titulo: "CIA MINERA VOLCAN S.A.A.", subtitulo: "", meses: "", ano: "2007 - 2012", description: "Alquiler de equipo pesado y transporte de material con volquetes" },
+  { titulo: "CEMENTO ANDINO S.A.", subtitulo: "", meses: "", ano: "2006", description: "Transporte de cemento a granel" },
+  { titulo: "UNION DE CONCRETERAS S.A. (UNICON)", subtitulo: "", meses: "", ano: "2006", description: "Transporte de cemento a granel" },
+  { titulo: "MINERA YANACOCHA S.R.L.", subtitulo: "", meses: "", ano: "2006", description: "Alquiler de equipo pesado y transporte de material con volquetes" },
+  { titulo: "MINERA BARRICK PERU S.A.", subtitulo: "", meses: "", ano: "2005", description: "Alquiler de equipo pesado y transporte de material con volquetes" },
+  { titulo: "CIA. MINERA RAURA S.A.", subtitulo: "", meses: "", ano: "2004", description: "Transporte de material con volquetes" },
+  { titulo: "EMPRESA MINERA LOS QUENUALES S.A.C.", subtitulo: "", meses: "", ano: "2003 - 2015", description: "Transporte de cemento a granel" },
+  { titulo: "OCHO SUR U S.A.C.", subtitulo: "", meses: "", ano: "2018 - Actualidad", description: "Transporte de cemento a granel" },
+  { titulo: "MILPO ANDINA S.A.C.", subtitulo: "", meses: "", ano: "2009 - 2013", description: "Alquiler de equipo pesado y transporte de material con volquetes" }
+];
 
   return (
     <div className="pt-12">
