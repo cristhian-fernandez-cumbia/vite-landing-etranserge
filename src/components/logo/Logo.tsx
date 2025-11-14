@@ -1,4 +1,4 @@
-import logo from './../../assets/logo/logo_etranserge.png'
+import logo from './../../assets/logo/logo_etranserge_header.jpeg'
 export const Logo = () => {
   return (
     <div className="flex items-center">
