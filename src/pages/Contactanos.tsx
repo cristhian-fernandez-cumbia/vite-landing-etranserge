@@ -60,9 +60,9 @@ const Contactanos = () => {
         <img src={phone} alt="telefono contactanos" className='h-12' />
         <div className='flex flex-col text-[16px]'>
           <h5 className='font-extrabold'>¡Llámanos!</h5>
-          <span className='font-medium'>362-95 23</span>
-          <span className='font-medium'>345-94 41</span>
-          <span className='font-medium'>989 446 759</span>
+          <span className='font-medium'>362-9523</span>
+          <span className='font-medium'>345-9441</span>
+          <span className='font-medium'>989-446-759</span>
         </div>
       </div>
     </div>
