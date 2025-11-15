@@ -6,12 +6,14 @@ import { NavLink } from 'react-router-dom';
 const Footer = () => {
   return (
     <div className="flex bg-footer py-20 px-16 flex-col lg:flex-row lg:gap-8">
-      {/* 1ra columna - Logo y redes sociales */}
-      {/* <div className="lg:w-1/3 flex flex-row mt-2 justify-center lg:justify-start mb-8 lg:mb-0">
-        <img src={logo} alt="Logo Etranserge" className="h-16 mr-5"/>
-        <div className='flex flex-col'>
-          <span className='text-xl font-bold text-white'>ETRANSERGE</span>
-          <span className='text-[16px] text-white mb-5'>Empresa de Transportes y Servicios Genuinos S.R.L</span>
+      <div className="lg:w-1/3 flex flex-col items-center lg:items-start mt-2 mb-8 lg:mb-0">
+        {/* Logo arriba */}
+         <div className="bg-white/80 rounded-full px-6 py-3 mb-4">
+          <img src={logo} alt="Logo Etranserge" className="h-16"/>
+        </div>
+        
+        {/* Contenedor de texto y redes sociales */}
+        <div className='flex flex-col items-center lg:items-start'>
           <div className='flex flex-row'>
             <div className='p-2 bg-icon rounded-full mr-3'>
               <Instagram className='w-5 h-5'/>
@@ -27,29 +29,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div> */}
-      <div className="lg:w-1/3 flex flex-col items-center lg:items-start mt-2 mb-8 lg:mb-0">
-      {/* Logo arriba */}
-      <img src={logo} alt="Logo Etranserge" className="h-16 mb-4"/>
-      
-      {/* Contenedor de texto y redes sociales */}
-      <div className='flex flex-col items-center lg:items-start'>
-        <div className='flex flex-row'>
-          <div className='p-2 bg-icon rounded-full mr-3'>
-            <Instagram className='w-5 h-5'/>
-          </div>
-          <div className='p-2 bg-icon rounded-full mr-3'>
-            <Internet className='w-5 h-5'/>
-          </div>
-          <div className='p-2 bg-icon rounded-full mr-3'>
-            <Twiter className='w-5 h-5'/>
-          </div>
-          <div className='p-2 bg-icon rounded-full'>
-            <Youtube className='w-5 h-5'/>
-          </div>
-        </div>
       </div>
-</div>
 
       {/* Contenedor para las 3 columnas restantes */}
       <div className="lg:w-3/4 flex flex-col lg:flex-row lg:gap-8 lg:justify-between">

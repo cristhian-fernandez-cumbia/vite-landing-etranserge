@@ -3,19 +3,19 @@ import 'animate.css/animate.compat.css';
 
 const Proyectos = () => {
   const items = [
-    { titulo: "OCHO SUR U S.A.C.", subtitulo: "", meses: "", ano: "2018 - Actualidad", description: "Transporte de cemento a granel" },
-    { titulo: "SOCIEDAD MINERA EL BROCAL SAA", subtitulo: "", meses: "", ano: "2017 - 2019", description: "Transporte de concentrado de mineral encapsulado" },
+    { titulo: "NEXA RESOURCES PERU S.A. (CERRO LINDO)", subtitulo: "", meses: "", ano: "2011 - Actualidad", description: "Alquiler de equipo pesado y transporte de material con volquetes" },
+    { titulo: "OCHO SUR U S.A.C.", subtitulo: "", meses: "", ano: "2018 - A LA ACTUALIDAD", description: "Transporte de cemento a granel" },
     { titulo: "COMPAÑÍA MINERA ARES S.A.C.", subtitulo: "", meses: "", ano: "2015 - 2023", description: "Transporte de cemento a granel" },
     { titulo: "SOBREANDES SAC (ANTES ALPAYANA)", subtitulo: "", meses: "", ano: "2014 - 2020", description: "Transporte de cemento a granel y en big-bag" },
-    { titulo: "NEXA RESOURCES PERU S.A. (CERRO LINDO)", subtitulo: "", meses: "", ano: "2011 - Actualidad", description: "Alquiler de equipo pesado y transporte de material con volquetes" },
+    { titulo: "SOCIEDAD MINERA EL BROCAL SAA", subtitulo: "", meses: "", ano: "2017 - 2019", description: "Transporte de concentrado con encapsulado" },
+    { titulo: "EMPRESA MINERA LOS QUENUALES S.A.C.", subtitulo: "", meses: "", ano: "2003 - 2015", description: "Transporte de cemento a granel" },
     { titulo: "MILPO ANDINA S.A.C.", subtitulo: "", meses: "", ano: "2009 - 2013", description: "Alquiler de equipo pesado y transporte de material con volquetes" },
-    { titulo: "CIA MINERA VOLCAN S.A.A.", subtitulo: "", meses: "", ano: "2007 - 2012", description: "Alquiler de equipo pesado y transporte de material con volquetes" },
+    { titulo: "CIA MINERA VOLCAN S.A.A. (UM CHUNGAR)", subtitulo: "", meses: "", ano: "2007 - 2012", description: "Alquiler de equipo pesado y transporte de material con volquetes" },
     { titulo: "CEMENTO ANDINO S.A.", subtitulo: "", meses: "", ano: "2006", description: "Transporte de cemento a granel" },
     { titulo: "UNION DE CONCRETERAS S.A. (UNICON)", subtitulo: "", meses: "", ano: "2006", description: "Transporte de cemento a granel" },
     { titulo: "MINERA YANACOCHA S.R.L.", subtitulo: "", meses: "", ano: "2006", description: "Alquiler de equipo pesado y transporte de material con volquetes" },
     { titulo: "MINERA BARRICK PERU S.A.", subtitulo: "", meses: "", ano: "2005", description: "Alquiler de equipo pesado y transporte de material con volquetes" },
-    { titulo: "CIA. MINERA RAURA S.A.", subtitulo: "", meses: "", ano: "2004", description: "Transporte de material con volquetes" },
-    { titulo: "EMPRESA MINERA LOS QUENUALES S.A.C.", subtitulo: "", meses: "", ano: "2003 - 2015", description: "Transporte de cemento a granel" }
+    { titulo: "CIA. MINERA RAURA S.A.", subtitulo: "", meses: "", ano: "2004", description: "Transporte de material con volquetes" }
   ];
 
   return (
